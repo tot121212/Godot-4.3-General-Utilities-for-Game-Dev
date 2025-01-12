@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkwrbxgpi0ar3"]
+
+[ext_resource type="Script" path="res://godot_exports/projectile_descendent_example.gd" id="1_x87k1"]
+[ext_resource type="PackedScene" uid="uid://b58io6kft4mym" path="res://godot_exports/ProjectileComponent.tscn" id="2_mjkis"]
+
+[node name="ProjectileDescendentExample" type="Node2D" node_paths=PackedStringArray("projectile_component")]
+script = ExtResource("1_x87k1")
+projectile_component = NodePath("ProjectileComponent")
+
+[node name="ProjectileComponent" parent="." node_paths=PackedStringArray("root") instance=ExtResource("2_mjkis")]
+root = NodePath("..")

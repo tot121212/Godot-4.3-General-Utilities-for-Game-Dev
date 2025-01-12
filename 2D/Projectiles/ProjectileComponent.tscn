@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b58io6kft4mym"]
+
+[ext_resource type="Script" path="res://godot_exports/projectile_component.gd" id="1_pyuam"]
+
+[node name="ProjectileComponent" type="Node2D" node_paths=PackedStringArray("visible_on_screen_notifier")]
+script = ExtResource("1_pyuam")
+visible_on_screen_notifier = NodePath("VisibleOnScreenNotifier2D")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
