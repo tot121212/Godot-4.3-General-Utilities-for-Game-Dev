@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bedrqedra17cr"]
 
-[ext_resource type="Script" path="res://prefabs/out_of_bounds_area_2d/out_of_bounds_area_2d.gd" id="1_iuvbq"]
+[ext_resource type="Script" path="res://out_of_bounds_area_2d.gd" id="1_iuvbq"]
 
 [node name="OutOfBoundsArea2D" type="Area2D" node_paths=PackedStringArray("teleporation_point")]
 collision_layer = 0
