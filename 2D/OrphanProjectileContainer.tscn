@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://561oioe4tx0h"]
+
+[ext_resource type="Script" path="res://prefabs/components/Godot 4.3 General Utilities for Game Dev/orphan_projectile_container.gd" id="1_6ghb1"]
+
+[node name="OrphanProjectileContainer" type="Node"]
+script = ExtResource("1_6ghb1")

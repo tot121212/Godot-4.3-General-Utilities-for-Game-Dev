@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfrah80hhduqm"]
+
+[ext_resource type="Script" path="res://prefabs/components/Godot 4.3 General Utilities for Game Dev/coyote_timer.gd" id="1_v68h3"]
+
+[node name="CoyoteTimer" type="Timer"]
+process_callback = 0
+wait_time = 0.2
+one_shot = true
+script = ExtResource("1_v68h3")
